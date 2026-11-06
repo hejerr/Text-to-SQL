@@ -1,0 +1,12 @@
+{
+  "name": "m0",
+  "parameters": 0,
+  "dev": {
+    "n": 8421,
+    "exact_match": 0.0,
+    "execution_accuracy": 0.00011875074219213871,
+    "execution_accuracy_gold_not_empty": 0.00012879958784131891,
+    "valid_format": 1.0,
+    "executable": 1.0
+  }
+}

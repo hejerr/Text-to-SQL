@@ -1,0 +1,77 @@
+{
+  "roundtrip": {
+    "train": {
+      "queries": 56355,
+      "recovered": 56351
+    },
+    "dev": {
+      "queries": 8421,
+      "recovered": 8421
+    },
+    "test": {
+      "queries": 15878,
+      "recovered": 15877
+    }
+  },
+  "execution_oracle_dev": {
+    "queries": 8421,
+    "same_answer": 8421
+  },
+  "vocabulary_by_min_freq": [
+    {
+      "min_freq": 1,
+      "vocabulary size": 35568,
+      "dev input: unknown tokens": "1.9%",
+      "dev output: unknown tokens": "3.7%",
+      "dev queries with an unknown word": "31.2%",
+      "test queries with an unknown word": "32.1%"
+    },
+    {
+      "min_freq": 2,
+      "vocabulary size": 15962,
+      "dev input: unknown tokens": "2.4%",
+      "dev output: unknown tokens": "4.7%",
+      "dev queries with an unknown word": "38.0%",
+      "test queries with an unknown word": "38.8%"
+    },
+    {
+      "min_freq": 3,
+      "vocabulary size": 11636,
+      "dev input: unknown tokens": "2.7%",
+      "dev output: unknown tokens": "5.3%",
+      "dev queries with an unknown word": "41.7%",
+      "test queries with an unknown word": "43.0%"
+    },
+    {
+      "min_freq": 5,
+      "vocabulary size": 8560,
+      "dev input: unknown tokens": "3.2%",
+      "dev output: unknown tokens": "6.2%",
+      "dev queries with an unknown word": "46.6%",
+      "test queries with an unknown word": "48.1%"
+    },
+    {
+      "min_freq": 10,
+      "vocabulary size": 5259,
+      "dev input: unknown tokens": "4.0%",
+      "dev output: unknown tokens": "7.5%",
+      "dev queries with an unknown word": "53.0%",
+      "test queries with an unknown word": "55.1%"
+    }
+  ],
+  "vocabulary": {
+    "min_freq": 2,
+    "size": 15962,
+    "special_tokens": 18
+  },
+  "lengths": {
+    "max_src": 128,
+    "max_tgt": 64,
+    "inputs_cut": 28,
+    "outputs_cut": 4
+  },
+  "padding_share": {
+    "random_batches": 0.5605056911466686,
+    "length_grouped_batches": 0.042327272498067
+  }
+}

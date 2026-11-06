@@ -1,0 +1,45 @@
+{
+  "name": "m1b",
+  "parameters": 14115418,
+  "vocabulary": 15962,
+  "epochs_run": 25,
+  "best_epoch": 24,
+  "dev": {
+    "loss": 1.2918171277035033,
+    "perplexity": 3.63939379412406,
+    "token_accuracy": 0.7913295839300448,
+    "n": 8421,
+    "exact_match": 0.16435102719391997,
+    "execution_accuracy": 0.21066381664885406,
+    "execution_accuracy_gold_not_empty": 0.1901081916537867,
+    "valid_format": 0.6989668685429284,
+    "executable": 0.6690416815105095
+  },
+  "config": {
+    "name": "m1b",
+    "seed": 0,
+    "data": {
+      "min_freq": 2,
+      "max_src_len": 128,
+      "max_tgt_len": 64
+    },
+    "model": {
+      "emb_dim": 256,
+      "hidden": 256,
+      "num_layers": 1,
+      "bidirectional": true,
+      "dropout": 0.3
+    },
+    "train": {
+      "epochs": 25,
+      "batch_size": 64,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "clip": 1.0,
+      "teacher_forcing": 1.0,
+      "patience": 4,
+      "lr_patience": 1,
+      "eval_subset": 1000
+    }
+  }
+}

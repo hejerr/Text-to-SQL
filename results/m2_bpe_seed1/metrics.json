@@ -1,0 +1,47 @@
+{
+  "name": "m2_bpe_seed1",
+  "parameters": 6830168,
+  "vocabulary": 5976,
+  "epochs_run": 8,
+  "best_epoch": 8,
+  "dev": {
+    "loss": 0.3033554125414477,
+    "perplexity": 1.3543957481450644,
+    "token_accuracy": 0.9364164164164164,
+    "n": 8421,
+    "exact_match": 0.553853461584135,
+    "execution_accuracy": 0.6140600878755492,
+    "execution_accuracy_gold_not_empty": 0.6103812467800103,
+    "valid_format": 0.8621303883149269,
+    "executable": 0.8557178482365515
+  },
+  "config": {
+    "name": "m2_bpe_seed1",
+    "seed": 1,
+    "data": {
+      "codec": "bpe",
+      "num_merges": 4000,
+      "max_src_len": 256,
+      "max_tgt_len": 128
+    },
+    "model": {
+      "type": "attention",
+      "emb_dim": 256,
+      "hidden": 256,
+      "num_layers": 1,
+      "bidirectional": true,
+      "dropout": 0.3
+    },
+    "train": {
+      "epochs": 8,
+      "batch_size": 64,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "clip": 1.0,
+      "teacher_forcing": 1.0,
+      "patience": 4,
+      "lr_patience": 1,
+      "eval_subset": 1000
+    }
+  }
+}

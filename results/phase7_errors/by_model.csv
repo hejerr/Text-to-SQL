@@ -1,0 +1,12 @@
+property,group,queries,m1b,m2,m3
+number of conditions,0,64,0.469,0.672,0.594
+number of conditions,1,5755,0.214,0.44,0.578
+number of conditions,2,2082,0.056,0.33,0.355
+number of conditions,3,454,0.011,0.258,0.115
+number of conditions,4,66,0.0,0.121,0.015
+question length,13 to 16 words,1859,0.108,0.372,0.449
+question length,9 to 12 words,3052,0.179,0.409,0.531
+question length,more than 16 words,1210,0.039,0.287,0.234
+question length,up to 8 words,2300,0.257,0.479,0.616
+a word that is not in the vocabulary,no,5221,0.265,0.649,0.546
+a word that is not in the vocabulary,yes,3200,0.0,0.0,0.407

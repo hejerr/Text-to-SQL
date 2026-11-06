@@ -1,0 +1,4 @@
+model,parameters,exact match,execution accuracy,valid format,token accuracy,perplexity,best epoch
+m0,0,0.0,0.0001,1.0,,,-
+m1,"13,326,426",0.1744,0.2225,0.7239,0.7975,3.46,25
+m1b,"14,115,418",0.1644,0.2107,0.699,0.7913,3.64,24

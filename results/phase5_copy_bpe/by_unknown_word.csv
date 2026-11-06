@@ -1,0 +1,7 @@
+model,dev queries,number,exact match,execution accuracy
+m2,without an unknown word,5221,0.6487,0.7087
+m2,with an unknown word,3200,0.0,0.0244
+m3,without an unknown word,5221,0.5464,0.628
+m3,with an unknown word,3200,0.4069,0.4781
+m2_bpe,without an unknown word,5221,0.6051,0.6683
+m2_bpe,with an unknown word,3200,0.4562,0.5188

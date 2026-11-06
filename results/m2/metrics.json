@@ -1,0 +1,46 @@
+{
+  "name": "m2",
+  "parameters": 14509402,
+  "vocabulary": 15962,
+  "epochs_run": 25,
+  "best_epoch": 21,
+  "dev": {
+    "loss": 0.3577204288323514,
+    "perplexity": 1.4300657594335136,
+    "token_accuracy": 0.9352421779417484,
+    "n": 8421,
+    "exact_match": 0.4022087638047738,
+    "execution_accuracy": 0.4486403040019,
+    "execution_accuracy_gold_not_empty": 0.43585780525502316,
+    "valid_format": 0.8741242132763329,
+    "executable": 0.8316114475715474
+  },
+  "config": {
+    "name": "m2",
+    "seed": 0,
+    "data": {
+      "min_freq": 2,
+      "max_src_len": 128,
+      "max_tgt_len": 64
+    },
+    "model": {
+      "type": "attention",
+      "emb_dim": 256,
+      "hidden": 256,
+      "num_layers": 1,
+      "bidirectional": true,
+      "dropout": 0.3
+    },
+    "train": {
+      "epochs": 25,
+      "batch_size": 64,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "clip": 1.0,
+      "teacher_forcing": 1.0,
+      "patience": 4,
+      "lr_patience": 1,
+      "eval_subset": 1000
+    }
+  }
+}

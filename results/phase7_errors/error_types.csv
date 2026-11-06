@@ -1,0 +1,9 @@
+,queries with this mistake,share of the failures,as main mistake
+invalid output,1168,30.7%,1168
+wrong selected column,392,10.3%,392
+wrong aggregator,757,19.9%,702
+wrong condition column,1139,30.0%,895
+missing condition,266,7.0%,164
+extra condition,179,4.7%,103
+wrong operator,129,3.4%,38
+wrong value,713,18.8%,340

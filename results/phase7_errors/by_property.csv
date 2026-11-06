@@ -1,0 +1,24 @@
+property,group,queries,exact_match,execution_accuracy
+aggregator,AVG,329,0.432,0.672
+aggregator,COUNT,779,0.376,0.487
+aggregator,MAX,507,0.464,0.645
+aggregator,MIN,468,0.494,0.679
+aggregator,SUM,321,0.383,0.545
+aggregator,none,6017,0.597,0.62
+number of conditions,0,64,0.672,0.688
+number of conditions,1,5755,0.606,0.647
+number of conditions,2,2082,0.444,0.544
+number of conditions,3,454,0.33,0.498
+number of conditions,4,66,0.167,0.364
+question length,13 to 16 words,1859,0.527,0.6
+question length,9 to 12 words,3052,0.568,0.621
+question length,more than 16 words,1210,0.397,0.517
+question length,up to 8 words,2300,0.62,0.658
+comparison (> or <) in the query,no,6838,0.57,0.611
+comparison (> or <) in the query,yes,1583,0.457,0.613
+a word that is not in the vocabulary,no,5221,0.605,0.668
+a word that is not in the vocabulary,yes,3200,0.456,0.519
+a value never seen as a value in training,no,3786,0.622,0.687
+a value never seen as a value in training,yes,4635,0.488,0.55
+a numeric column that contains text,no,5732,0.578,0.608
+a numeric column that contains text,yes,2689,0.486,0.62

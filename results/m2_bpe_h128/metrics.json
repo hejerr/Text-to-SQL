@@ -1,0 +1,47 @@
+{
+  "name": "m2_bpe_h128",
+  "parameters": 4587480,
+  "vocabulary": 5976,
+  "epochs_run": 8,
+  "best_epoch": 8,
+  "dev": {
+    "loss": 0.4272208360704454,
+    "perplexity": 1.5329911640905822,
+    "token_accuracy": 0.9080680680680681,
+    "n": 8421,
+    "exact_match": 0.4102838142738392,
+    "execution_accuracy": 0.4837905236907731,
+    "execution_accuracy_gold_not_empty": 0.4750128799587841,
+    "valid_format": 0.8341052131575822,
+    "executable": 0.8197363733523334
+  },
+  "config": {
+    "name": "m2_bpe_h128",
+    "seed": 0,
+    "data": {
+      "codec": "bpe",
+      "num_merges": 4000,
+      "max_src_len": 256,
+      "max_tgt_len": 128
+    },
+    "model": {
+      "type": "attention",
+      "emb_dim": 256,
+      "hidden": 128,
+      "num_layers": 1,
+      "bidirectional": true,
+      "dropout": 0.3
+    },
+    "train": {
+      "epochs": 8,
+      "batch_size": 64,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "clip": 1.0,
+      "teacher_forcing": 1.0,
+      "patience": 4,
+      "lr_patience": 1,
+      "eval_subset": 1000
+    }
+  }
+}

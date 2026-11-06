@@ -1,0 +1,16 @@
+{
+  "text_in_numeric_columns": {
+    "train": {
+      "n_queries": 17303,
+      "share": 0.3070357554786621
+    },
+    "dev": {
+      "n_queries": 2689,
+      "share": 0.31932074575466096
+    },
+    "test": {
+      "n_queries": 4919,
+      "share": 0.30979972288701346
+    }
+  }
+}

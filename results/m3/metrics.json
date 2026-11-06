@@ -1,0 +1,47 @@
+{
+  "name": "m3",
+  "parameters": 14510427,
+  "vocabulary": 15962,
+  "epochs_run": 10,
+  "best_epoch": 10,
+  "dev": {
+    "loss": 0.2663042086589128,
+    "perplexity": 1.3051320307674783,
+    "token_accuracy": 0.9144149697929609,
+    "n": 8421,
+    "exact_match": 0.4934093338083363,
+    "execution_accuracy": 0.571072319201995,
+    "execution_accuracy_gold_not_empty": 0.5642709943328181,
+    "valid_format": 0.9217432608953806,
+    "executable": 0.9054744092150576
+  },
+  "config": {
+    "name": "m3",
+    "seed": 0,
+    "data": {
+      "codec": "copy",
+      "min_freq": 2,
+      "max_src_len": 128,
+      "max_tgt_len": 64
+    },
+    "model": {
+      "type": "copy",
+      "emb_dim": 256,
+      "hidden": 256,
+      "num_layers": 1,
+      "bidirectional": true,
+      "dropout": 0.3
+    },
+    "train": {
+      "epochs": 10,
+      "batch_size": 64,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "clip": 1.0,
+      "teacher_forcing": 1.0,
+      "patience": 4,
+      "lr_patience": 1,
+      "eval_subset": 1000
+    }
+  }
+}

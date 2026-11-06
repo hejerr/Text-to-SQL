@@ -1,0 +1,5 @@
+decoding,exact match,execution accuracy,seconds
+greedy,0.347,0.373,0
+"beam, k = 1",0.347,0.373,18
+"beam, k = 3",0.344,0.372,18
+"beam, k = 5",0.344,0.372,18
